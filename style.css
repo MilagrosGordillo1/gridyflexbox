@@ -1,0 +1,104 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Times, serif;
+    margin: 0%;
+    padding: 0%;
+    min-width: 100vh;
+    box-sizing: border-box;
+    background-color: white;
+    position: relative;
+    }
+        .nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 16px 64px;
+            background-color:cornflowerblue;
+            position: relative;
+            width: 100%;
+    
+        }
+    
+        .menuhorizontal { 
+            list-style: none;
+            padding: 0%;
+            margin: 0%;
+            display: flex;
+            transition: all 0.5s ease ;
+        
+        }
+        .menuhorizontal li {
+            margin-left: 24px;
+    
+        }
+        .menuhorizontal > li > a{
+            color: black;
+            text-decoration: none;
+            font-size: 17px;
+            padding: 8px 24px;
+            border-radius: 30px ;
+            transition: background-color 0.4s ease;
+        }
+    
+        .menuhorizontal a:hover
+    { background-color:#0865c2; }
+    
+    #menuhamburguesa{
+        display: none;
+    }
+
+.titulogrande{
+    text-align: center;
+margin-left: 140px;
+background-color: rgb(138, 185, 225);
+border-radius: 20px;
+margin-left: 500px;
+margin-right: 500px;
+
+}
+
+img{
+    width: 100%;
+}
+.row{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+.column img{
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+@media(max-width: 600px){
+    .column{
+        flex: 100%;
+    }
+}
+
+.contacto{ text-align: center;
+    margin-left: 140px;
+    background-color:rgb(138, 185, 225);
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.contacto1{ text-align: center;}
+
+
+    .piedepagina {   
+        position: absolute;
+        width: 100%;
+        background: cornflowerblue;
+        height: 100px;
+        padding: 5px 10px;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+    
